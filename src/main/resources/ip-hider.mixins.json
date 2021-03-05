@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"minVersion": "0.8",
+	"package": "me.ivanyf.iphider.mixins",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+		"AddServerScreenMixin",
+		"MultiplayerScreenMixin"
+	],
+	"client": [
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}

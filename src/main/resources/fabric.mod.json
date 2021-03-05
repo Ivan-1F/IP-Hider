@@ -1,0 +1,27 @@
+{
+	"schemaVersion": 1,
+	"id": "ip-hider",
+	"version": "${version}",
+	"name": "IP Hider",
+	"description": "A mod to hide server ip when editing server",
+	"authors": [
+		"IvanYF"
+	],
+	"contact": {},
+	"license": "GPL-3.0",
+	"icon": "assets/ip-hider/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"me.ivanyf.iphider.IpHider"
+		],
+		"modmenu": [ "me.ivanyf.iphider.config.ModMenuImpl" ]
+	},
+	"mixins": [
+		"ip-hider.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.11.2",
+		"minecraft": "1.15.2"
+	}
+}
