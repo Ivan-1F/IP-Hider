@@ -4,7 +4,6 @@
 	"package": "me.ivanyf.iphider.mixins",
 	"compatibilityLevel": "JAVA_8",
 	"mixins": [
-		"AddServerScreenMixin",
 		"MultiplayerScreenMixin"
 	],
 	"client": [
