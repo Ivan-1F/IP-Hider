@@ -15,7 +15,6 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 @Mixin(MultiplayerScreen.class)
 public class MultiplayerScreenMixin {
-    MultiplayerScreen screen = (MultiplayerScreen)(Object) this;
     @Shadow private ButtonWidget buttonEdit;
 
     @Inject(method = "render", at = @At("TAIL"))
