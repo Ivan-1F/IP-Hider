@@ -14,8 +14,7 @@
 	"entrypoints": {
 		"main": [
 			"me.ivanyf.iphider.IpHider"
-		],
-		"modmenu": [ "me.ivanyf.iphider.config.ModMenuImpl" ]
+		]
 	},
 	"mixins": [
 		"ip-hider.mixins.json"
