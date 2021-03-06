@@ -18,7 +18,7 @@ public class MultiplayerScreenMixin {
 
     @Inject(method = "render", at = @At("TAIL"))
     private void render(int mouseX, int mouseY, float delta, CallbackInfo ci) {
-        screen.drawString(MinecraftClient.getInstance().textRenderer, new TranslatableText(Configs.enabled ? "ip-hider.message.enable" : "ip-hider.message.disable").getString(), 0, 0, 16777215);
+        screen.drawString(MinecraftClient.getInstance().textRenderer, new TranslatableText(Configs.enabled ? "ip-hider.message.enable" : "ip-hider.message.disable").getString(), 10, 10, 16777215);
     }
 
     @Inject(method = "updateButtonActivationStates", at = @At("TAIL"))
